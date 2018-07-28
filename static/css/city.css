@@ -1,0 +1,25 @@
+.city-list{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+}
+.city-list:last-child{
+    margin-bottom: .8rem;
+}
+.list-header{
+    width:100%;
+    height:.3rem;
+    line-height:.3rem;
+    font-size: .16rem;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    color:gray;
+}
+.city-list .city-item{
+    width:33%;
+    text-align: center;
+    height:.6rem;
+    line-height: .6rem;
+    font-size: .15rem;
+}
